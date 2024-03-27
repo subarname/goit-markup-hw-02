@@ -77,7 +77,10 @@ cursor: pointer;
 }
 .main-btn:hover{ color: #404bbf;}
 .main-btn:focus{ color: #404bbf;}
-    
+    .main-btn{
+        background-color: #4d5ae5;
+
+    }
 
 .row-title{
 font-weight: 500;
@@ -94,14 +97,13 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .section-team{
-    background-color: #f4f4fd;
+    background: #f4f4fd;
 }
 .section-team-title{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
 }
 
@@ -127,15 +129,15 @@ color: #434455;
 }
 
 
-.Portfolio-title{
+.portfolio-title-item{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
-.Portfolio-title-text-list{
+.portfolio-title-text-list{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
