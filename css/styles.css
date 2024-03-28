@@ -77,8 +77,8 @@ color: #fff;
 background-color: #4d5ae5;
 cursor: pointer;
 }
-.main-btn:hover{ color: #404bbf;}
-.main-btn:focus{ color: #404bbf;}
+.main-btn:hover{ background-color: #404bbf;}
+.main-btn:focus{ background-color:  #404bbf;}
 
 .row-title{
 font-weight: 500;
