@@ -74,8 +74,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background-color: #404bbf;
+background-color: #4d5ae5;
 cursor: pointer;
 }
 .main-btn:hover{ color: #404bbf;}
@@ -118,7 +117,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #434455;
+color: #2e2f42;
 text-transform: capitalize;
 }
 .our-title-item-team{
