@@ -65,6 +65,7 @@ img{
 .header-conteiner{
     display: flex;
     align-items: center;
+    
 }
 
 .header-logo{
@@ -98,7 +99,7 @@ margin-right: 76px;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-        margin-bottom: 16px;
+    margin-right: 76px;
 }
 
 
@@ -331,7 +332,7 @@ margin-bottom: 8px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
 }
 
 
