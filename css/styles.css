@@ -64,6 +64,7 @@ img{
 
 .header-conteiner{
     display: flex;
+    align-items: center;
 }
 
 .header-logo{
@@ -75,12 +76,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
 margin-right: 76px;
-
-}
-
-.header-container{
-    display: flex;
-align-items: center;
 
 }
 
@@ -102,12 +97,10 @@ align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 76px;
+    display: inline-block;
+        margin-bottom: 16px;
 }
+
 
 .header-menu-list{
     display: flex;
@@ -270,6 +263,10 @@ margin-bottom: 72px;
     text-align: center;
 }
 
+.our-title-item{
+    margin-bottom: 8px;
+}
+
 .our-title{
     display: flex;
 gap: 24px;
@@ -277,7 +274,9 @@ gap: 24px;
 
 
 .our-title-row{
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+background-color: #fff;
 }
 
 
@@ -319,14 +318,15 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-top: 32px;
+margin-bottom: 8px;
 }
 
 .portfolio-conteiner-text{
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
+    border-radius: 1px solid #e7e9fc;;
 }
 
 
@@ -346,6 +346,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-logo{
@@ -364,7 +366,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-margin: 0 auto;
 padding-top: 16px;
 max-width: 264px;
 }
