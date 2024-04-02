@@ -186,6 +186,7 @@ margin: 0 auto;
 margin-top: 48px;
 min-width: 169px;
 height: 56px;
+display: block;
 }
 
 .main-btn:hover{ background-color: #404bbf;}
@@ -216,10 +217,8 @@ overflow: hidden;
     
 }
 
-.conteiner-section{
-    
-    padding-top: 120px;
-    padding-bottom: 120px;
+.section-row{
+    padding: 120px 0;
 }
 
 .section-row-list{
