@@ -86,7 +86,7 @@ color: #2e2f42;
 
 .current::after{
         content: "";
-         position: absolute;
+        position: absolute;
         background-color: #404bbf;
         left: 0;
         bottom: -1px;
@@ -94,7 +94,6 @@ color: #2e2f42;
         width: 100%;
         height: 4px;
         border-radius: 2px;
-         
 }
 
 
@@ -305,7 +304,6 @@ background-color: aqua;
 
 .icon-icon{
     fill: #F4F4FD;
-
 }
 
 .section-team{
@@ -393,6 +391,12 @@ background-color: #fff;
    
 }
 
+.portfolio-title-text:hover .portfolio-cover-text{
+    transform: translateY(0);
+
+}
+
+
 .portfolio-title-item{
 font-weight: 700;
 font-size: 36px;
@@ -412,7 +416,11 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+}
 
+.portfolio-cover-wrap{
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio-conteiner-text{
@@ -424,6 +432,23 @@ margin-bottom: 8px;
     border-top: none;
 }
 
+.portfolio-cover-text{
+    position: absolute;
+    top: 0;
+    background-color: #4d5ae5;
+    height: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+        transform: translateY(100%);
+transition: transform 250ms linear;
+}
 
 /*---------- footer -----------*/
 
