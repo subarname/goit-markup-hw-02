@@ -59,7 +59,7 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-   
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.8);
 }
 
 .header-conteiner{
@@ -116,9 +116,6 @@ padding-bottom: 24px;
     align-items: center;
     display: flex;
     margin-right: auto;
-    transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
-    
-    
     
 }
 
@@ -143,15 +140,12 @@ padding-bottom: 24px;
     padding-left: 0;
 }
 
-
-
-
-
 .menu-address{
     display: flex;
     align-items: center;
     gap: 0px 40px;
     margin: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 }
    
 
@@ -161,7 +155,7 @@ font-size: 16px;
 /* line-height: 1.5; */
 letter-spacing: 0.02em;
 color: #434455;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0, 2, 1);
 } 
 
 .address{
@@ -232,7 +226,6 @@ background-color: 250ms cubic-bezier(0.4,0,0.2,1);
     clip-path: inset(100%);
     clip:rect(0 0 0 0);
 overflow: hidden;
-    
  }
 
 
@@ -264,7 +257,6 @@ overflow: hidden;
 
 .section-row-list{
     width: calc((100% -3 * 24px) / 4);
-    
 }
 
 .row-title{
@@ -288,14 +280,14 @@ max-width: 264px;
 
 /*----------section 3------------*/
 /*-------*/
-.icon-list{
+.icon-list-team{
     display: flex;
     justify-content: center;
     gap: 24px;
     
 }
 
-.icon-item{
+.icon-item-full{
 width: 40px;
 height: 40px;
 
@@ -304,8 +296,8 @@ height: 40px;
 .icon-icon-team{
    width: 100%;
    height: 100%;
-background-color: #404bbf;
-border-radius: 50px;
+background-color: #4d5ae5;
+border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -316,7 +308,7 @@ justify-content: center;
 background-color: #404bbf;
 }
 
-.icon-icon{
+.icon-icon-svg{
     fill: #F4F4FD;
 }
 
@@ -339,10 +331,10 @@ margin-bottom: 72px;
 }
 
 .section-team-foto{
-    border-radius: 0,0,4px,4px;
+    border-radius: 0 0 4px 4px;
     padding: 32px 0;
     text-align: center;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
 }
 
@@ -417,7 +409,7 @@ gap: 24px;
 
 .portfolio-title-text:hover .portfolio-cover-text{
     transform: translateY(0);
-
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
