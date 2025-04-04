@@ -523,6 +523,7 @@ max-width: 264px;
 
 .footer-social-text{
     display: flex;
+    align-items: baseline;
 }
 
 .footer-media-icon{
